@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedidos"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginVertical="70dp"
+            ></TextView>
+
+        <EditText
+            android:layout_width="2px"
+            android:layout_height="34dp"
+            android:background=" #baba"
+            android:layout_weight="1"
+            android:layout_marginVertical="70dp"></EditText>
+
+        <Button
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="2px"
+            android:layout_height="34dp"
+            android:text="Buscar Pedidos"
+            android:textSize="7dp"
+            android:background="#baba"
+            android:layout_weight="1"
+            android:layout_marginVertical="66dp"></Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="135dp"
+        >
+
+    <TextView
+        android:layout_marginHorizontal="8dp"
+        android:textSize="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Todos">
+    </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_marginHorizontal="8dp"
+            android:textSize="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendiente de pago">
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:background="#000000" />
+        <TextView
+            android:layout_marginHorizontal="6dp"
+            android:textSize="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completado">
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_marginHorizontal="5dp"
+            android:textSize="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelado">
+        </TextView>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:background="#000000" />
+        <TextView
+            android:layout_marginHorizontal="2dp"
+            android:textSize="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reembolsado">
+        </TextView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginVertical="160dp"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#bdbdbd"
+    ></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="175dp"
+        >
+
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedido"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facturación"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <TextView
+            android:textSize="13dp"
+            android:layout_marginHorizontal="11dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acciones"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="end"
+
+        >
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:layout_marginVertical="645dp"
+            android:textSize="10dp"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="Facturar Producto"
+
+            ></Button>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
