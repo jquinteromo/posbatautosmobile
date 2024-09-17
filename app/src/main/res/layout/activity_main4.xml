@@ -1,6 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingLeft="30dp"
+            android:background="#f5f5f5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="PosBatAutos Store"/>
+            <TextView
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Compra Online"/>
+            <TextView
+                android:textColor="#4cbd49"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="$0 cop"/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/colombia"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:textSize="15dp"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="colombia"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <TextView
+                android:paddingLeft="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Ingrese Correo electronico"/>
+            <EditText
+                android:paddingLeft="10dp"
+                android:hint="email"
+                android:background="@drawable/sytylesearch"
+                android:layout_marginLeft="30dp"
+                android:layout_width="200dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+          <TextView
+              android:textSize="16dp"
+              android:textColor="@color/black"
+              android:paddingTop="12dp"
+              android:layout_marginLeft="14dp"
+              android:layout_width="200dp"
+              android:layout_height="50dp"
+              android:text="Seleccione Metodo De Pago"/>
+
+
+            <LinearLayout
+                android:background="#eeeeee"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="94dp">
+                <ImageView
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/daviplata"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:text="DaviPlata"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:background="#eeeeee"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="94dp">
+                <ImageView
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/bancolombia"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:text="Bancolombia"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:background="#eeeeee"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="94dp">
+                <ImageView
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/efecty"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"/>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:text="Efecty"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:background="#eeeeee"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="94dp">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/visa"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"/>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:text="visa"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

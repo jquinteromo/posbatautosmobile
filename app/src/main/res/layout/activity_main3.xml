@@ -96,6 +96,7 @@
 
 
         <ImageView
+            android:id="@+id/show_shoppingcar"
             android:layout_marginVertical="30dp"
             android:layout_width="60dp"
             android:layout_height="36dp"
@@ -129,6 +130,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="110dp">
                 <ImageView
+                    android:id="@+id/imageview"
                     android:layout_width="100dp"
                     android:layout_height="120dp"
                     android:src="@drawable/vartablu"></ImageView>
@@ -137,6 +139,7 @@
 
 
             <TextView
+                android:id="@+id/reference_product"
                 android:textStyle="bold"
                 android:textSize="13dp"
                 android:layout_marginTop="20dp"
@@ -146,12 +149,13 @@
 Lstv4"></TextView>
 
             <TextView
+                android:id="@+id/priceProduct"
                 android:textStyle="bold"
                 android:textSize="13dp"
                 android:layout_marginVertical="10dp"
                 android:layout_width="60dp"
                 android:layout_height="20dp"
-                android:text="$200.499"></TextView>
+                android:text="200.499"></TextView>
 
             <TextView
                 android:textColor="#72cb10"
@@ -163,6 +167,7 @@ Lstv4"></TextView>
 
 
             <Button
+                android:id="@+id/add_car"
                 android:textSize="8dp"
                 android:text="Añadir al carrito"
                 android:layout_width="100dp"
@@ -217,6 +222,8 @@ Dinamic"></TextView>
 
 
             <Button
+
+                android:id="@+id/add_car2"
                 android:textSize="8dp"
                 android:text="Añadir al carrito"
                 android:layout_width="100dp"
@@ -270,6 +277,8 @@ Black"></TextView>
 
 
             <Button
+
+                android:id="@+id/add_car3"
                 android:textSize="8dp"
                 android:text="Añadir al carrito"
                 android:layout_width="100dp"

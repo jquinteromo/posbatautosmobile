@@ -1,6 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="28dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="8dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:src="@drawable/verificationicon"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="6dp"
+                android:text="Productos añadidos al carrito de compras"
+                android:textColor="#22C55E"
+                android:textSize="16dp"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="18dp" />
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="132dp"
+                android:orientation="vertical"
+                android:paddingLeft="4dp">
+
+                <TextView
+                    android:id="@+id/receivedText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="13dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="ID: 22"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/receivePrice"
+                    android:layout_width="120dp"
+                    android:layout_height="44dp"
+                    android:text=""
+                    android:textColor="#4cbd49"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="132dp"
+                android:paddingVertical="32dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/addicon" />
+
+                <TextView
+                    android:id="@+id/counter"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="12dp"
+                    android:text="                                                                                                                                                                                                                                                  "
+                    android:textColor="@color/black"
+                    android:textSize="18dp"></TextView>
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/decrease" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/sendBill"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="400dp"
+            android:background="#3BC6FF"
+            android:text="Enviar Facturacón"
+            android:textColor="@color/white"></Button>
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

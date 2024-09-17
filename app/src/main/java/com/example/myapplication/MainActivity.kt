@@ -1,14 +1,9 @@
 package com.example.myapplication
 
-import android.database.sqlite.SQLiteOpenHelper
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.SpannableString
-import android.text.style.UnderlineSpan
 import android.content.Intent
-import android.util.Log
-import android.widget.Button
-import android.widget.TextView
 import android.widget.Toast
 import com.example.myapplication.databinding.ActivityMainBinding
 
